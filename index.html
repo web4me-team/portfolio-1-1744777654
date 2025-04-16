@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Bao's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dna-animation">
+        <div class="dna-helix"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-dna"></i>
+                    <span>BioPortfolio</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <div class="profile-icon">
+                        <img src="profile/1.svg" alt="Bella Bao" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Bella Bao</h1>
+                    <h2>Software Engineer & Bioinformatics Specialist</h2>
+                    <p class="hero-bio">Bella Bao is a skilled software engineer with experience in health informatics and bioinformatics. She has interned at Adobe, ByteDance, Avellino, and the Warshel Institute, where she led projects in security automation, workflow management, and machine learning. Her technical expertise includes Python, Golang, and cloud technologies like AWS and Kubernetes.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="divider">
+                    <i class="fas fa-dna"></i>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Bella Bao, a software engineer with a focus on health informatics and bioinformatics. My work involves developing innovative software solutions to enhance data management and analysis in healthcare and biological research.</p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Contact</h3>
+                            <p>bella.bao@yale.edu</p>
+                            <p>510-513-2529</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="card-text">
+                            <h3>Location</h3>
+                            <p>New Haven, CT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="divider">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </div>
+            <div class="timeline" id="education-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>M.S. in Health Informatics</h3>
+                            <span class="timeline-date">May. 2025 (expected)</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">Yale University</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>B.S. in Bioinformatics</h3>
+                            <span class="timeline-date">Jun. 2023</span>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="institution">University of California, San Diego</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience</h2>
+                <div class="divider">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+            </div>
+            <div class="experience-grid" id="experience-container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="experience-date">May. 2024 – Aug. 2023</span>
+                    </div>
+                    <p class="experience-place">Adobe Inc.</p>
+                    <ul class="experience-details">
+                        <li>Led the end-to-end design and implementation of the Security Auto-Ticketing feature in the developer portal using the Backstage Framework and Nunjucks templating engine.</li>
+                        <li>Revamped Adobe’s microservice onboarding experience by automating field generation using the React-jsonschema-form library.</li>
+                        <li>Developed a Golang-based tooling package in deployment repo, integrating Docker and Makefile targets.</li>
+                        <li>Enhanced Kubernetes-native deployment workflows by establishing a new CI pipeline in ArgoCD.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Backstage Framework</span>
+                        <span class="technique-tag">Nunjucks</span>
+                        <span class="technique-tag">React-jsonschema-form</span>
+                        <span class="technique-tag">Golang</span>
+                        <span class="technique-tag">Docker</span>
+                        <span class="technique-tag">Kubernetes</span>
+                        <span class="technique-tag">ArgoCD</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="experience-date">Jun. 2023 – Aug. 2023</span>
+                    </div>
+                    <p class="experience-place">ByteDance Inc.</p>
+                    <ul class="experience-details">
+                        <li>Designed and developed workflow management, user data management, and visualization functionalities through Golang.</li>
+                        <li>Redesigned and implemented the submission workflow involving three-step task submissions via HTTP and RPC.</li>
+                        <li>Designed and created data schema with ER diagrams; optimized MySQL queries with rollback functionality.</li>
+                        <li>Enhanced search functionality in the frontend using React.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">Golang</span>
+                        <span class="technique-tag">HTTP</span>
+                        <span class="technique-tag">RPC</span>
+                        <span class="technique-tag">MySQL</span>
+                        <span class="technique-tag">React</span>
+                        <span class="technique-tag">Docker</span>
+                        <span class="technique-tag">Kubernetes</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Machine learning Engineer Intern</h3>
+                        <span class="experience-date">Jul. 2022 – Jun. 2023</span>
+                    </div>
+                    <p class="experience-place">Avellino, Inc.</p>
+                    <ul class="experience-details">
+                        <li>Developed a ML pipeline including data cleaning, data preprocessing, model training, data analysis to visualization.</li>
+                        <li>Implemented linear regression model with L1 and L2 regularization and logistic regression.</li>
+                        <li>Conducted feature importance analysis using correlation matrix and random forests.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">pandas</span>
+                        <span class="technique-tag">NumPy</span>
+                        <span class="technique-tag">scikit-learn</span>
+                        <span class="technique-tag">linear regression</span>
+                        <span class="technique-tag">logistic regression</span>
+                        <span class="technique-tag">random forests</span>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Software Engineer Intern</h3>
+                        <span class="experience-date">Jul. 2021 – Sep. 2021</span>
+                    </div>
+                    <p class="experience-place">Warshel Institute for Computational Biology</p>
+                    <ul class="experience-details">
+                        <li>Revamped the full-stack data management platform including data registration and validation for miRTarBase.</li>
+                        <li>Integrated Clinical microRNA and gene expression profile modules into miRTarBase.</li>
+                    </ul>
+                    <div class="techniques">
+                        <span class="technique-tag">HTML</span>
+                        <span class="technique-tag">PHP</span>
+                        <span class="technique-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="divider">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>I'm always interested in new research collaborations, speaking opportunities, or discussions about my work. Feel free to reach out!</p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:bella.bao@yale.edu" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>bella.bao@yale.edu</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+15105132529" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>510-513-2529</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/bella-bao-521265202/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/bella-bao-521265202/</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.google.com" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Google Scholar</h3>
+                            <p>View Publications</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-dna"></i>
+                    <span>Bella Bao</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/bella-bao-521265202/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Bella Bao. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html> 
